@@ -1,1 +1,1 @@
-# google_homepage
+This is my first project which i shall be aiming to recreate tyhe google-homepage which i inted to used the learnt skills in HTML for stucture and CSS for designing the outlook.
