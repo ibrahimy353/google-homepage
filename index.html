@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoogleHomepage</title>
      <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
-     <link href="style.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
     <body>
       <header>
         
         <nav>
-          <ul id="nav_bar">
-          <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
-          <li class="nav-links"><a href="#">Images</a></li>
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
           <img src="img\g-menu.png">
-          <li id="sign_in"><a href="#">Sign In</a></li>
-        </ul>
+          <button>Sign in</button>
+    
         </nav>
 
       </header>
@@ -23,33 +23,26 @@
 
       <!-- Google img -->
       <center>
-
-      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Homepage logo">
-
-      </center>
+        <section class="section-1">
+          <img src="img/logo.png" class="logo">
+          <form><br><br>
+         
+        
+          </center>
 
 
       <!--Form Search-->
 
-      <div class="search bar">
-        <center>
-        <form>
-
-          <label for="form-search"></label>
-          <input type="text" id="form-search" placeholder="Search Google or type URL">
-        </form>
+      <div class="s-box">
         
-        </center>
-      </div>
-  
-
-      <!-- Buttorns-->
-
-      <div class= "buttons">
-        <center>  
-        <input type="submit" value="Google Search" id="google_search">
-        <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky">
-        </center>
+        
+          <img src="img/search.svg" class="search-icon">
+          <input type="text" class="s-input">
+          <img src="img/google-mic.png" class="vs-icon">
+          <input type="submit" class="s-btn" value="Google Search">
+          <input type="submit" class="s-btn" value="I'm Feeling Lucky">
+        </div>
+      </form>
       
         
       </div>
@@ -61,8 +54,8 @@
         <a href="https://www.google.com/setprefs?sig=0_XLQCXD6v0mEdYiv2iom21VfzQHI%3D&amp;hl=sw&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwiEt7abmaTxAhUB_RQKHQ5rDAsQ2ZgBCA4">Kiswahili</a>
 
       </div>
-
-    </center>
+       
+       </center>
 
 
       <!-- Footer-->
@@ -71,23 +64,22 @@
 
       <div class><p>Kenya</p></div>
 
-      <ul class="footer left">
+      <class="footer left">
         
-        <li><a href="#">About</a></li>
-        <li><a href="#">Advertising</a></li>
-        <li><a href="#">Business</a></li>
-        <li><a href="#">How Search works</a></li>
-        
-        <ul class="footer center">
-        
-          <li><a href="#">Cabron neutral since 2007</a></li>
+        <a href="#">About</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
 
-          <ul class="footer right">
+        <class="footer center">
         
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Settings</a></li>
+          <a href="#">Cabron neutral since 2007</a>
 
-
+          <class="footer right">
+        
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Settings</a>
+      
     </body>
   </html>
