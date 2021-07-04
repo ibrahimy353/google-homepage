@@ -1,6 +1,6 @@
 {
 	padding: 0;
-	margin:0;
+	margin: 0;
 	box-sizing: border-box;
 	text-decoration: none;
 	font-family: arial, sans-serif;
@@ -126,18 +126,14 @@ nav button {
         margin-left: 5px;
         color: #1a0dab;
     }
-    .lang a:hover {
-        text-decoration: none;
 
-    }
     footer {
         background: #f2f2f2;
         position: fixed;
         bottom: 0px;
         width: 100%;
-
     }
-    
+
     footer h4 {
         color: rgba(0,0,0, 0.54);
         font-size: 15px;
