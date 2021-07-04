@@ -119,7 +119,6 @@ nav button {
     }
     .lang {
         margin-top: 30px;
-        text-align: center;
         font-size: 13px;
         color: #111;
     }
@@ -128,11 +127,15 @@ nav button {
         color: #1a0dab;
     }
     .lang a:hover {
-        text-decoration: underline;
+        text-decoration: none;
+   
+   
+   
     }
     footer {
         background: #f2f2f2;
     }
+    
     footer h4 {
         color: rgba(0,0,0, 0.54);
         font-size: 15px;
