@@ -93,7 +93,7 @@ nav button {
         opacity: .4;
         position: absolute;
         top: 13px;
-        left: 14px;
+        left: 24px;
     }
     .s-box .google-mic-icon {
         width: 14px;
@@ -128,12 +128,14 @@ nav button {
     }
     .lang a:hover {
         text-decoration: none;
-   
-   
-   
+
     }
     footer {
         background: #f2f2f2;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+
     }
     
     footer h4 {
