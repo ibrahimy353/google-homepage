@@ -91,7 +91,7 @@ nav button {
     .s-box .search-icon {
         width: 1px;
         opacity: .4;
-        position: absolute;
+        position: fixed;
         top: 13px;
         left: 24px;
     }
